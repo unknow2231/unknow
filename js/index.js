@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 		if (loginValue === "admin" && passwordValue === "password") {
 			alert("Успішна авторизація. Переход на іншу сторінку...");
-			window.location.href = "./welcome.html"; // Замініть "ім'я_сторінки.html" на шлях до вашої сторінки
+			window.location.href = "../html/welcome.html"; // Замініть "ім'я_сторінки.html" на шлях до вашої сторінки
 		} else {
 			alert("Неправильний логін або пароль. Будь ласка, спробуйте знову.");
 		}
